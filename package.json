@@ -1,0 +1,28 @@
+{
+  "name": "@rauchwerfer/binary-reader",
+  "version": "0.0.1",
+  "description": "C#-like binary reader.",
+  "types": "lib",
+  "main": "./lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "ts-node test/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rauchwerfer/binary-reader.package.git"
+  },
+  "author": "Rauchwerfer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
